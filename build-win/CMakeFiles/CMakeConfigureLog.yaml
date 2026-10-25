@@ -1,0 +1,272 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Windows - 10.0 - AMD64
+      The host system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/clang 
+      Build flags: -fexceptions;-fcxx-exceptions;-D_CRT_SECURE_NO_WARNINGS;--target=x86_64-windows-msvc;-fms-compatibility-version=19.37;-Wno-unused-command-line-argument;-isystem;/usr/lib/llvm-18/lib/clang/18/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt;-ivfsoverlay/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/bin/ld: Error: unable to disambiguate: -defaultlib:libcmt (did you mean --defaultlib:libcmt ?)
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang 
+      Build flags: -fexceptions;-fcxx-exceptions;-D_CRT_SECURE_NO_WARNINGS;--target=x86_64-windows-msvc;-fms-compatibility-version=19.37;-Wno-unused-command-line-argument;-isystem;/usr/lib/llvm-18/lib/clang/18/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt;-ivfsoverlay/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/isaiah/geode-click-buffer/build-win/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/clang++ 
+      Build flags: -fexceptions;-fcxx-exceptions;-D_CRT_SECURE_NO_WARNINGS;--target=x86_64-windows-msvc;-fms-compatibility-version=19.37;-Wno-unused-command-line-argument;-isystem;/usr/lib/llvm-18/lib/clang/18/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt;-ivfsoverlay/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/bin/ld: Error: unable to disambiguate: -defaultlib:libcmt (did you mean --defaultlib:libcmt ?)
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: -fexceptions;-fcxx-exceptions;-D_CRT_SECURE_NO_WARNINGS;--target=x86_64-windows-msvc;-fms-compatibility-version=19.37;-Wno-unused-command-line-argument;-isystem;/usr/lib/llvm-18/lib/clang/18/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um;-isystem/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt;-ivfsoverlay/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/isaiah/geode-click-buffer/build-win/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8"
+      binary: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: " -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt\" -ivfsoverlay\"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: " -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64\" -L\"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks\""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95d44/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_95d44.dir/build.make CMakeFiles/cmTC_95d44.dir/build
+        gmake[1]: Entering directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8'
+        Building C object CMakeFiles/cmTC_95d44.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/clang   -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_95d44.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_95d44.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_95d44.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_95d44.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d44.dir/link.txt --verbose=1
+        /usr/bin/clang -fuse-ld=lld-link -nostartfiles -nostdlib  -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -L"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64" -L"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks"  -Xlinker /subsystem:console @CMakeFiles/cmTC_95d44.dir/objects1.rsp -o cmTC_95d44.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_95d44.lib -Xlinker /pdb:/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8/cmTC_95d44.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_95d44.dir/linkLibs.rsp 
+        gmake[1]: Leaving directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-6d9dd8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm"
+      binary: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: " -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt\" -ivfsoverlay\"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml\""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: " -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64\" -L\"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks\""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f0a7c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f0a7c.dir/build.make CMakeFiles/cmTC_f0a7c.dir/build
+        gmake[1]: Entering directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm'
+        Building CXX object CMakeFiles/cmTC_f0a7c.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/clang++   -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f0a7c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_f0a7c.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_f0a7c.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_f0a7c.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0a7c.dir/link.txt --verbose=1
+        /usr/bin/clang++ -fuse-ld=lld-link -nostartfiles -nostdlib  -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -L"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64" -L"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks"  -Xlinker /subsystem:console @CMakeFiles/cmTC_f0a7c.dir/objects1.rsp -o cmTC_f0a7c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f0a7c.lib -Xlinker /pdb:/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm/cmTC_f0a7c.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_f0a7c.dir/linkLibs.rsp 
+        gmake[1]: Leaving directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-kSpmvm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw"
+      binary: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: " -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt\" -ivfsoverlay\"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml\""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: " -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64\" -L\"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks\""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f9ef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f9ef.dir/build.make CMakeFiles/cmTC_3f9ef.dir/build
+        gmake[1]: Entering directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw'
+        Building CXX object CMakeFiles/cmTC_3f9ef.dir/feature_tests.cxx.obj
+        /usr/bin/clang++   -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_3f9ef.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_3f9ef.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_3f9ef.dir/feature_tests.cxx.obj -c /home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw/feature_tests.cxx
+        Linking CXX executable cmTC_3f9ef.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f9ef.dir/link.txt --verbose=1
+        /usr/bin/clang++ -fuse-ld=lld-link -nostartfiles -nostdlib  -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -L"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64" -L"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks"  -Xlinker /subsystem:console @CMakeFiles/cmTC_3f9ef.dir/objects1.rsp -o cmTC_3f9ef.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3f9ef.lib -Xlinker /pdb:/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw/cmTC_3f9ef.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_3f9ef.dir/linkLibs.rsp 
+        gmake[1]: Leaving directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NghsLw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW"
+      binary: "/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: " -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um\" -isystem\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt\" -ivfsoverlay\"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml\""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: " -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64\" -L\"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64\" -L\"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks\""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9bdbb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9bdbb.dir/build.make CMakeFiles/cmTC_9bdbb.dir/build
+        gmake[1]: Entering directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW'
+        Building CXX object CMakeFiles/cmTC_9bdbb.dir/feature_tests.cxx.obj
+        /usr/bin/clang++   -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_9bdbb.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_9bdbb.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_9bdbb.dir/feature_tests.cxx.obj -c /home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW/feature_tests.cxx
+        Linking CXX executable cmTC_9bdbb.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bdbb.dir/link.txt --verbose=1
+        /usr/bin/clang++ -fuse-ld=lld-link -nostartfiles -nostdlib  -fexceptions -fcxx-exceptions -D_CRT_SECURE_NO_WARNINGS --target=x86_64-windows-msvc -fms-compatibility-version=19.37 -Wno-unused-command-line-argument -isystem /usr/lib/llvm-18/lib/clang/18/include -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/include" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/ucrt" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/shared" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/um" -isystem"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/include/winrt" -ivfsoverlay"/home/isaiah/geode-click-buffer/build-win/winsdk_vfs_overlay.yaml"  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -L"/home/isaiah/.local/share/Geode/cross-tools/splat/crt/lib/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/ucrt/x86_64" -L"/home/isaiah/.local/share/Geode/cross-tools/splat/sdk/lib/um/x86_64" -L"/home/isaiah/geode-click-buffer/build-win/winsdk_lib_symlinks"  -Xlinker /subsystem:console @CMakeFiles/cmTC_9bdbb.dir/objects1.rsp -o cmTC_9bdbb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9bdbb.lib -Xlinker /pdb:/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW/cmTC_9bdbb.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_9bdbb.dir/linkLibs.rsp 
+        gmake[1]: Leaving directory '/home/isaiah/geode-click-buffer/build-win/CMakeFiles/CMakeScratch/TryCompile-NmXanW'
+        
+      exitCode: 0
+...

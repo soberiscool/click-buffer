@@ -1,0 +1,41 @@
+{
+    "name": "click-buffer",
+    "version": "1.0.0",
+    "description": "Click Buffer - Expands click window for more forgiving inputs (1-frame → 3-frame perfect)",
+    "author": "YourName",
+    "repository": "https://github.com/yourname/click-buffer",
+    "dependencies": [
+        { "id": "geode.loader", "version": ">=1.4.0" },
+        { "id": "cocos2d", "version": ">=4.0" }
+    ],
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "default": true,
+            "name": "Enable Click Buffer",
+            "description": "Master toggle"
+        },
+        "buffer-frames": {
+            "type": "int",
+            "default": 2,
+            "min": 0,
+            "max": 10,
+            "name": "Buffer Frames",
+            "description": "Extra frames before/after perfect click that count as valid (0 = vanilla, 2 = 1-frame becomes 3-frame)"
+        },
+        "buffer-mode": {
+            "type": "string",
+            "default": "both",
+            "options": ["before", "after", "both"],
+            "name": "Buffer Mode",
+            "description": "Where to apply buffer: before perfect frame, after, or both"
+        },
+        "visual-indicator": {
+            "type": "bool",
+            "default": false,
+            "name": "Show Buffer Indicator",
+            "description": "Show a small UI indicator when buffer is active"
+        }
+    },
+    "tags": ["gameplay", "quality-of-life", "click", "buffer"]
+}
