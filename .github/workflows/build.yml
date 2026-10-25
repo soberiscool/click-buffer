@@ -1,0 +1,19 @@
+name: Build Click Buffer Mod
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: geode-sdk/setup-geode@v1
+      with:
+        geode-version: '5.11.2'
+    - run: geode build
+    - uses: actions/upload-artifact@v4
+      with:
+        name: click-buffer.geode
+        path: build/click-buffer.geode
